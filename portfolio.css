@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #300030;
+    background-image: url(as1.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #550555
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.nav-ops {
+    margin-right: 30px;
+
+}
+
+.nav-ops a {
+    color: rgb(241, 240, 240);
+    font-size: 18px;
+}
+
+.nav-ops ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-ops li {
+    padding-right: 25px;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    height: 350px;
+    width: 300px;
+    margin: 80px 100px;
+}
+
+.star {
+    width: 180px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin-top: 15px;
+    height: 35px;
+    width: 65px;
+    font-size: 16px;
+    row-gap: 15px;
+    border: 3px solid #550355;
+    background-color: #f322f3;
+    color: #550355;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+.btn1 {
+    margin-left: 10px;
+}
+
+.buttons:hover {
+    color: #f322f3;
+    background-color: #550355;
+    border: 3px solid #f322f3;
+    transition: 0.5s;
+}
+
+.image {
+    height: 320px;
+    width: 300px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    background: transparent;
+    opacity: 0.6;
+}
+
+.line1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #f322f3;
+}
+
+.line2 {
+    font-size: 30px;
+    color: #c705c7;
+    font-weight: 500;
+}
+
+footer {
+    color: #bbbbbb;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: 300;
+    border-top: 2px solid #bbbbbb;
+    background-color: #550355;
+}
+
+
+.instagram {
+    padding-left: 15px;
+
+}
+
+.linkdin {
+    padding-left: 15px;
+
+}
+
+.border:hover {
+    border: 1.2px solid #bbbbbb;
+}
